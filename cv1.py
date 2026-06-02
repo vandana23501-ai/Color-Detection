@@ -37,3 +37,6 @@ while True:
           VALUE - Brightness of the color (0- completely black)'''
 #===========          
 #Next step is to convert the color format to hsv 
+
+cap.release()
+cv2.destroyAllWindows()
